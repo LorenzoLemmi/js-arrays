@@ -36,7 +36,7 @@ for (let i = 0; i < teachers.length; i++) {
   }
 }
 
-const isFabioPresent2 = teachers.includes("Fabio");
+const isFabioPresentTwo = teachers.includes("Fabio");
 
 // 8. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
@@ -47,7 +47,7 @@ for (let i = 0; i < teachers.length; i++) {
   }
 }
 
-lewisIndex2 = teachers.indexOf("Lewis");
+lewisIndexTwo = teachers.indexOf("Lewis");
 
 // 9. Unisci tutti gli insegnanti nell'array teachers in una stringa
 // separata da virgole e salvala nella variabile teachersString
@@ -56,7 +56,7 @@ for (let i = 0; i < teachers.length; i++) {
   teachersString += (teachers[i] + ",");
 }
 
-teachersString2 = teachers.join();
+teachersStringTwo = teachers.join();
 
 // 10. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
