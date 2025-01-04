@@ -32,3 +32,12 @@ for (let i = 0; i < teachers.length; i++) {
 const longNames2 = teachers.filter((word) => word.length >= 5);
 
 // 3. Rimuovi 'Ed' dall'array teachers
+const teachersMinusEd = [];
+for (let i = 0; i < teachers.length; i++) {
+  currentTeacher = teachers [i];
+  if (currentTeacher != "Ed") {
+    teachersMinusEd.push(currentTeacher);
+  }
+}
+
+const teachersMinusEd2 = teachers.splice(1, 1);
