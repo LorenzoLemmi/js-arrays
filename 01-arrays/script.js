@@ -34,7 +34,9 @@ for (let i = 0; i < teachers.length; i++) {
   if (teachers[i] == "Fabio") {
     isFabioPresent = true
   }
-}
+};
+
+const isFabioPresent2 = teachers.includes("Fabio");
 
 // 8. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
