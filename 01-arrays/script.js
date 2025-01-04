@@ -48,9 +48,15 @@ for (let i = 0; i < teachers.length; i++) {
 }
 
 lewisIndex2 = teachers.indexOf("Lewis");
+
 // 9. Unisci tutti gli insegnanti nell'array teachers in una stringa
 // separata da virgole e salvala nella variabile teachersString
-const teachersString = null;
+let teachersString;
+for (let i = 0; i < teachers.length; i++) {
+  teachersString += (teachers[i] + ",");
+}
+
+teachersString2 = teachers.join();
 
 // 10. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
