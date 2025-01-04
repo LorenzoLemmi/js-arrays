@@ -32,16 +32,22 @@ teachers.unshift("Sarah");
 let isFabioPresent;
 for (let i = 0; i < teachers.length; i++) {
   if (teachers[i] == "Fabio") {
-    isFabioPresent = true
+    isFabioPresent = true;
   }
-};
+}
 
 const isFabioPresent2 = teachers.includes("Fabio");
 
 // 8. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
-const lewisIndex = null;
+let lewisIndex;
+for (let i = 0; i < teachers.length; i++) {
+  if (teachers[i] == "Lewis") {
+    lewisIndex = i;
+  }
+}
 
+lewisIndex2 = teachers.indexOf("Lewis");
 // 9. Unisci tutti gli insegnanti nell'array teachers in una stringa
 // separata da virgole e salvala nella variabile teachersString
 const teachersString = null;
